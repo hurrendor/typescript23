@@ -2,14 +2,13 @@
 id: mim3tgsd1do3a7gpjef96af
 title: Realworld
 desc: ''
-updated: 1691623084155
+updated: 1694103469069
 created: 1691613690495
 ---
 # Declarations
 ## Declaring Variables
 `declare const foo: boolean;`
-The `declare` keyword claims the first usage of the variable
-TODO: Does this override other declarations?
+The `declare` keyword claims the first usage of the variable. Usually used to declare functions, it can be used to describe types or values accessed by dotted notation.
 
 ### Global Namespace / Global Closure
 `declare global {}`

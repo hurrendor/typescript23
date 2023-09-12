@@ -2,7 +2,7 @@
 id: 0mv68n5hkousp5fwrqcaole
 title: Notes
 desc: ''
-updated: 1691622750728
+updated: 1692048725358
 created: 1691602401142
 ---
 ## Getting Started
@@ -25,6 +25,7 @@ TS supports down to even ES3 (deprecated)
 
 5. The Real World [[realworld]]
 Working in the IDE
+    - Visual Studio Code tips & tricks
 
 ## Initialize a TS repo
 `tsc --init`
@@ -37,4 +38,4 @@ Creates a config file
 * Intellij TS setup
 
 ## Side tips:
-`if ('objectProperty' in objectFoo)`
+`if ('objectProperty' in objectFoo)` -- checking for an object property

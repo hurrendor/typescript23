@@ -2,7 +2,7 @@
 id: nh8b6uite0wnu04fh6yffjo
 title: Features
 desc: ''
-updated: 1691620663937
+updated: 1695231145632
 created: 1691603907682
 ---
 # Functions
@@ -24,17 +24,18 @@ Type annotation - `function returnsThang(): boolean {}`
 ## Function Types
 `type StringToNumber = (input: string) => number;`
 
-# TODO:Come Back To ^^^ the cipher solution 
+[Parameter and Return Type Annotation Practice](https://www.learningtypescript.com/functions/secret-secrets/)
+
 
 # Arrays
-
-## Tuple Types
-
+[Single and Multidemensional Array and Type Annotation Practice](https://www.learningtypescript.com/arrays/analyzing-dna/)
 
 # Interfaces
 A way to describe something similar to an object type. TLDR same as object typing.
 Differences is how they are extended or combined
 `interface NameAndPower extends JustName {}`
+
+[Writing Interfaces - Practice](https://www.learningtypescript.com/interfaces/vacation-planning/)
 
 ## Index Signatures
 Setting a 'catch-all' value

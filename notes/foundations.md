@@ -2,7 +2,7 @@
 id: 4hrs5cop4hpj0y7v5xak5ys
 title: Foundations
 desc: ''
-updated: 1691613543509
+updated: 1695227724857
 created: 1691604451959
 ---
 ## Variables
@@ -12,6 +12,8 @@ If a value is unset until later, it becomes an '**evolving any**'
 ## Typing Types
 * `any` - YOLO. Holds any of the options
 * `unknown` - we don't know this
+* `void` - Nothing is returned from this
+* `undefined` - A value has not been set
 
 ## 7 Primitive data types (for TS)
 - null

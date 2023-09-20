@@ -2,7 +2,7 @@
 id: i4v85k6s6w898ms2cu6t04g
 title: Funtypes
 desc: ''
-updated: 1691620804581
+updated: 1695232430980
 created: 1691613659535
 ---
 # 1. Type Modifiers
@@ -10,7 +10,7 @@ created: 1691613659535
 ## Type Assertions
 **Most** of the time, typescript assertions are the wrong strategy.
 
-Format: value as type. ex:`(foo as string)`
+Format: value as type. ex: `(foo as string)`
 
 ## Keyof Types
 Given
@@ -29,7 +29,8 @@ Takes the typing defined elsewhere in an interface or type into another area tha
 **Can be chained!**
 `fn foo(bar: keyof typeof catValues)`
 
-//TODO: Revisit slides on keyof typeof
+Slide: 70
+[Type Modifier Practice](https://www.learningtypescript.com/type-modifiers/modifiers-of-the-types/)
 
 ### Type Predicate
 If the checked thing is true, then property values will be applied
@@ -53,7 +54,7 @@ When being extended, will set the type to whatever value is set.
 `interface Box<T = string> { value: T }`
 
 ## Parameter Type Defaults & Keyof Types
-**TODO: Come back to with notes**
+[Generics Practice](https://www.learningtypescript.com/generics/hidash/)
 ```
 function get<T, Key extends keyof T>( 
         container: T, 
@@ -106,15 +107,11 @@ interface NullableBeingManual {
 ```
 Can create lack of run-time logic by automating typing setup. Also, a nightmare to read through.
 
-## Conditional Types
-//TODO: cOME BACK TO
+## Conditional Types (slide 82)
 Conditional types cannot be used to set a value in a variable, but can be used to set a type on the variable.
 A type can be set to the resulting value of type, and then applied to a variable.
 
-## Inferred Types
+## Inferred Types (slide 83)
 using the `infer` keyword
 ` type MyAwaited<T> = T extends Promise<infer U> ? U : never;`
-//todo: go back to inferred types
 
-## Recrusive Inferred Types
-Yeah I'm not taking notes on this

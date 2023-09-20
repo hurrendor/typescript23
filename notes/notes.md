@@ -2,11 +2,13 @@
 id: 0mv68n5hkousp5fwrqcaole
 title: Notes
 desc: ''
-updated: 1692048725358
+updated: 1695227320190
 created: 1691602401142
 ---
 ## Getting Started
 Play around on the [ts playground](https://www.typescriptlang.org/)
+
+[TypeScript Projects to Learn](https://www.learningtypescript.com/projects) | [Slides](https://onedrive.live.com/view.aspx?resid=D699ACCFCBD51CF5!1028283&ithint=file%2cpptx&wdo=2&authkey=!AJa_ZfmduGNWfSs)
 
 TS supports down to even ES3 (deprecated)
 
